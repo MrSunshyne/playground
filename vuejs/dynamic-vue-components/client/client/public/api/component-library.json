@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Countdown", 
+        "path": "Countdown/MyCountdown.cdcbb1c290a530281c17.umd.min.js"
+    },
+    {
+        "name": "Hello", 
+        "path" : "MyComponent/MyComponent.df2882f990aacbdc6f27.umd.min.js"
+    }
+]
