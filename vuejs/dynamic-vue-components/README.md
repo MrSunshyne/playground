@@ -84,4 +84,10 @@ export default async function externalComponent(url) {
 ```
 
 
-Then we iterate over the library data thing to show the external components. 
+Then we iterate over the library data thing to show the external components as follows: 
+
+```html
+<div v-if="library">
+    <Component v-for="comp in library" :key="comp.name" :is="comp.comp" />
+</div>
+```
